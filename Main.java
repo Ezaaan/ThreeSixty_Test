@@ -1,7 +1,5 @@
-import java.util.*;
 import java.lang.*;
-import java.io.*;
-import java.math.*;
+import java.util.*;
 
 public class Main {
 
@@ -28,13 +26,11 @@ public class Main {
         int st = mid + 1;
         int ed = n - 2; // FIX 2: n - 1 -> n - 2
         while(st <= ed){
-            System.err.println("st: " + st + " ed: " + ed);   
             temp = a[st];
             a[st] = a[ed];
             a[ed] = temp;
             st = st + 1;
             ed = ed - 1; // FIX 3: ed +1 -> ed - 1
-            System.err.println(Arrays.toString(a));
         }
         for(int i = 0; i < n; i++){
             if(i > 0) System.out.print(" ");
