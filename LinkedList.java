@@ -18,29 +18,24 @@ public class LinkedList {
         }
         scanner.close();
         list.generateLinkedList(inputArr);
-        if(list.isCyclic()){
-            System.out.println("Linked List is cyclic");
-        }else{
-            System.out.println("Linked List is not cyclic");
-        }
-        list.displayList();
+        System.err.println(list.isCyclic());
     }
 
     public LinkedList() {
         this.head = null;
     }
 
-    private  boolean isCyclic(){
+    private int isCyclic(){
         List<Integer> iterated = new ArrayList<>();
         Node current = this.head;
         while(current != null){
             if(iterated.contains(current.nodeId)){
-                return true;
+                return 1;
             }
             iterated.add(current.nodeId);
             current = current.next;
         }
-        return false;
+        return 0;
     }
 
     private void generateLinkedList(int[] nodes){
