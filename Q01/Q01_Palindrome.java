@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Palindrome {
+public class Q01_Palindrome {
     public static void main(String[] args) {
         List<Character> inputs = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);

@@ -1,7 +1,7 @@
 import java.lang.*;
 import java.util.*;
 
-public class Main {
+public class Q07_Main {
 
     public static void main (String[] args) throws java.lang.Exception {
         Scanner kb = new Scanner(System.in);

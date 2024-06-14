@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class ShiftText {
+public class Q08_ShiftText {
     public static void main(String[] args) {
-        ShiftText shiftText = new ShiftText();
+        Q08_ShiftText shiftText = new Q08_ShiftText();
         Scanner scanner = new Scanner(System.in);
         String inputText = "";
         while(inputText.isEmpty()){

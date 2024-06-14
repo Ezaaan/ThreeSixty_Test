@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class RecursiveReverse {
+public class Q09_RecursiveReverse {
     public static void main(String[] args) {
-        RecursiveReverse recursiveReverse = new RecursiveReverse();
+        Q09_RecursiveReverse recursiveReverse = new Q09_RecursiveReverse();
         Scanner scanner = new Scanner(System.in);
         String input = "";
         while(input.isEmpty()){

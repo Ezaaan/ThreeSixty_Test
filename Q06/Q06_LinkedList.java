@@ -3,11 +3,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class LinkedList {
+public class Q06_LinkedList {
     private Node head;
 
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
+        Q06_LinkedList list = new Q06_LinkedList();
         Scanner scanner = new Scanner(System.in);
         int len = 0;
         System.err.print("Enter array length: ");
@@ -21,7 +21,7 @@ public class LinkedList {
         System.err.println(list.isCyclic());
     }
 
-    public LinkedList() {
+    public Q06_LinkedList() {
         this.head = null;
     }
 

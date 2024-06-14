@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 
-public class SymetricTriangle {
+public class Q02_SymetricTriangle {
     public static void main(String[] args) {
-        SymetricTriangle symetricTriangle = new SymetricTriangle();
+        Q02_SymetricTriangle symetricTriangle = new Q02_SymetricTriangle();
         Scanner scanner = new Scanner(System.in);
         int input = 0;
         while(input <= 0){
