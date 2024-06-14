@@ -1,0 +1,38 @@
+[
+  {
+    "username": "siswa1",
+    "name": "Imam Sucipto",
+    "teacher": "guru1",
+    "grade": "95"
+  },
+  {
+    "username": "siswa2",
+    "name": "Dimas Prasetyo",
+    "teacher": "guru1",
+    "grade": "92"
+  },
+  {
+    "username": "siswa3",
+    "name": "Rifqi Fauzi",
+    "teacher": "guru1",
+    "grade": "83"
+  },
+  {
+    "username": "siswa4",
+    "name": "Dedi Kurniawan",
+    "teacher": "guru2",
+    "grade": "70"
+  },
+  {
+    "username": "siswa5",
+    "name": "Ahmad Dahlan",
+    "teacher": "guru2",
+    "grade": "60"
+  },
+  {
+    "username": "siswa6",
+    "name": "Kamal Mustofa",
+    "teacher": "guru2",
+    "grade": "50"
+  }
+]

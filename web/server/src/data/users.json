@@ -1,0 +1,47 @@
+[   {
+        "username": "admin",
+        "password": "admin",
+        "role": "admin"
+    },
+    {
+        "username": "guru1",
+        "password": "guru1",
+        "role": "guru"
+    },
+    {
+        "username": "guru2",
+        "password": "guru2",
+        "role": "guru"
+    },
+    {
+        "username": "siswa1",
+        "password": "siswa1",
+        "role": "siswa"
+    },
+    {
+        "username": "siswa2",
+        "password": "siswa2",
+        "role": "siswa"
+    },
+    {
+        "username": "siswa3",
+        "password": "siswa3",
+        "role": "siswa"
+    },
+    {
+        "username": "siswa4",
+        "password": "siswa4",
+        "role": "siswa"
+    },
+    {
+        "username": "siswa5",
+        "password": "siswa5",
+        "role": "siswa"
+    },
+    {
+        "username": "siswa6",
+        "password": "siswa6",
+        "role": "siswa"
+    }
+
+]
